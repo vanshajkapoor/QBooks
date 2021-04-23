@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Full stack application for buying books online",
   "main": "server.js",
+  "type":"module",
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
