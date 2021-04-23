@@ -1,0 +1,14 @@
+{
+  "name": "qbooks",
+  "version": "1.0.0",
+  "description": "Full stack application for buying books online",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "author": "Vanshaj Kapoor",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
