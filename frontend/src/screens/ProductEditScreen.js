@@ -8,8 +8,6 @@ import Loader from '../components/Loader';
 import FormContainer from '../components/FormContainer';
 import { listProductDetails, updateProduct } from '../actions/productActions';
 import { PRODUCT_UPDATE_RESET } from '../constants/productConstants';
-import FigureCaption from 'react-bootstrap/esm/FigureCaption';
-import { set } from 'mongoose';
 
 const ProductEditScreen = ({ match, history }) => {
   const productId = match.params.id;
